@@ -1,9 +1,10 @@
 def new_hash
-
+Hash.new 
 end
 
-def actor
-
+def actor (string)
+actor = Hash.new
+actor["name"]= string 
 end
 
 def monopoly
