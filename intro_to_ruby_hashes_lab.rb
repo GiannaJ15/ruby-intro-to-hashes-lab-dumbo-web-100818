@@ -2,9 +2,9 @@ def new_hash
 Hash.new 
 end
 
-def actor(string)
+def actor
 actor = {}
-actor[:name]= string
+actor[:name]= "Dwayne The Rock Johnson"
 actor
 end
 
