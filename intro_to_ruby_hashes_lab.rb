@@ -2,9 +2,10 @@ def new_hash
 Hash.new 
 end
 
-def actor
+def actor(string)
 actor = {}
-actor[:name]= "Dwayne The Rock Johnson" 
+actor[:name]= string
+actor
 end
 
 def monopoly
